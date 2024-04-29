@@ -1,0 +1,13 @@
+
+.chart_container{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.chart_container .chart_box{
+	margin: 24px;
+	margin: auto;
+	width: 60%;
+}
+
+

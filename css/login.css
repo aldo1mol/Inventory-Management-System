@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(255, 255, 255);
+    /* background-color: linear-gradient(3deg, rgba(0,3,28,1) 0%, rgba(10,44,153,1) 76%); */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Admin section */
+.form-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(3deg, rgb(146, 20, 20) 0%, rgb(211, 19, 19) 76%);
+    padding-bottom: 80px;
+    
+}
+
+.form-container form{
+    text-align: center;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px 5px #000000a8;
+    padding:20px;
+    border-radius: 5px 10px 10px 5px;
+}
+
+.form-container form h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(175, 119, 55);
+}
+
+.form-container .message {
+    width: 50%;
+    color: #fff;
+    background-color: #DB504A;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: auto;
+  }
+  #role{
+    width: 50%;
+    padding: 12px 0px;
+    font-size: 20px;
+  }
+
+.form-container form .box{
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #db2525;
+    margin: 10px 0;
+    text-align: center;
+}
+.form-container form .login-btn{
+    display: block;
+    margin-top: 10px;
+    background: #a70d0d;
+    color: white;
+    padding: 10px 35px;
+    font-size: 20px;
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.form-container form .login-btn:hover{
+    background: rgb(233, 32, 32);
+    color: #ffffff;
+}
+.form-container form .box:hover{
+    border: none;
+    border-bottom: 2px solid #db2525;
+    outline: none;
+
+}
+.form-container .img{
+    display: flex;
+    min-height: 58vh;
+    height: 66vh;
+    width: 400px;
+    box-shadow: 1px 1px 20px 5px #000000a8;
+}
+/* End of Admin Section */
+
+@media (max-width: 430px) {
+    /* adminsection */
+    .form-container {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(3deg, rgb(92, 3, 3) 0%, rgb(192, 8, 8) 76%);
+        padding-bottom: 80px;
+    }
+    .form-container form{
+        text-align: center;
+        width: 300px;
+        background: rgb(255, 255, 255);
+        box-shadow: 1px 1px 20px 5px #000000a8;
+        padding:20px;
+    }
+    .form-container form h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .form-container form .box{
+        width: 100%;
+        padding: 12px 0px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 2px solid #db2525;
+        outline: none;
+        margin: 10px 0;
+        border-radius: 20px;
+        
+    }
+    .form-container form .login-btn{
+        display: block;
+        margin-top: 10px;
+        background: #a70d0d;
+        color: white;
+        padding: 10px 35px;
+        font-size: 20px;
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .form-container form .login-btn:hover{
+        background: rgb(214, 214, 214);
+        color: #fd6565;
+    }
+    .form-container form .box:hover{
+        border: none;
+        border-bottom: 2px solid #db2525;
+        outline: none;
+    }
+    .form-container .img{
+        display:none
+    }
+    /* endofadminsection */
+
+}
+@media (max-width: 922px) {
+    /* adminsection */
+    .form-container form .login-btn{
+        display:block;
+        margin-top: 10px;
+        background: #a70d0d;
+        color: white;
+        padding: 10px 35px;
+        font-size: 20px;
+        width: 50%;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .form-container form .login-btn:hover{
+        background: rgb(214, 214, 214);
+        color: #fd6565;
+    }
+    .form-container form .box:hover{
+        border: 2px solid #a7a7a7;
+    }
+    .form-container .img{
+        display:none
+    }
+    /* endofadminsection */
+}
